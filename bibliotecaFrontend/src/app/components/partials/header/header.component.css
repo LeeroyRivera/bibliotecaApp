@@ -1,0 +1,36 @@
+header{
+    position: relative;
+    background: #333; 
+    padding: 0;
+    border-bottom: 1px solid #ff0e0e;
+}
+
+a{
+    color: #ffffff;
+}
+
+a:hover{
+    color: #ff0e0e;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+a.logo{
+    font-weight: bold;
+    padding: 1rem;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}  
+
+ul a{
+    padding: 1rem;
+    display: incline-block;
+}
